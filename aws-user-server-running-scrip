@@ -1,0 +1,42 @@
+cd /Download/$>>
+1Step>> Go to the terminal
+find the key where you stored from aws server
+Example
+GO to the Download folder like
+cd Downlaods
+2nd Step>>
+/Desktop/Donwloads/$- for ssh -i key.me ubuntu@copyservername from aws console
+(Server is enabled)
+3rd Step>>
+ubunti@ip222112$ sudo apt update
+command upgrade
+4th Step>>
+ubunti@ip222112$ sudo apt install apache2 
+Done
+
+5th Step>>
+you can check server staus via below command like
+sudo service (servicename> 
+ubunti@ip222112$  sudo service apache2 status
+it works
+6th step
+cd /var/www/html/
+ls 
+index.html
+
+7th step>>
+you can upload your own index.html file
+first we have to delete default index file
+ubunti@ip222112:/var/www/html/$ sudo rm index.html
+
+8th step>>
+Sudo nano index.html
+Save file name with
+ctrl +o>>Ctrl+E(exit)
+(Hello This is my webserver on ec2)
+
+
+ 
+
+
+
